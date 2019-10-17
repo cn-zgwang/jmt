@@ -1,0 +1,257 @@
+html,
+body {
+	position: relative;
+	height: 100%;
+}
+
+.tan .swiper-container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.txt{
+
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	z-index: 999;
+	text-align: initial;
+	background-color: #000;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0 20px;
+    line-height: 26px;
+}
+
+.tan .swiper-slide img {
+	width: 100%;
+	/* vertical-align: middle; */
+}
+
+.gallery-top {
+	width: 960px;
+	height: 600px;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+/* .gallery-top .swiper-slide{
+	text-align: center;
+	line-height: 600px;
+} */
+
+.gallery-thumbs {
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+
+.gallery-thumbs .swiper-slide {
+	width: 125px;
+	height: 88px;
+	opacity: 0.4;
+	overflow: hidden;
+}
+#gallery-thumbs {
+    width: 960px;
+    height: 100px;
+}
+.gallery-thumbs .swiper-slide-active {
+	opacity: 1;
+}
+
+.tan {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	background-color: #000;
+	background: rgba(0, 0, 0, 0.9);
+	text-align: center;
+	z-index: 11;
+	display: none;
+}
+
+.tan .swiper-button-next,
+.tan .swiper-button-prev {
+	width: 60px;
+	height: 60px;
+	background: url(../images/about/index_tab_l.png);
+	position: absolute;
+	right: -80px;
+}
+
+.tan .swiper-button-prev {
+	left: -80px;
+}
+
+.tan .swiper-button-next {
+	background: url('../images/about/index_tab_r.png');
+}
+
+.gallery-thumbs .swiper-slide-active img{
+	border: 2px solid #fff;
+	box-sizing: border-box;
+}
+
+.lbt {
+	width: 960px;
+	height: 690px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -480px;
+	margin-top: -345px;
+}
+
+.gallery-top .swiper-slide {
+	overflow: hidden;
+	text-align: center;
+	line-height: 600px
+}
+
+.gallery-top .swiper-slide img {
+	vertical-align: middle;
+	max-height: 100%;
+	max-width: 100%;
+}
+.gallery-thumbs .swiper-slide {
+	overflow: hidden;
+	text-align: center;
+	line-height: 88px
+}
+
+.gallery-thumbs .swiper-slide img {
+	vertical-align: middle;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+
+.about_fork {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: -40px;
+	right: 0;
+}
+
+
+
+.mob .gallery-top {
+	width: 100%;
+	height: auto;
+}
+
+.mob .lbt {
+
+	width: 100%;
+	left: 0;
+	top: 50%;
+	margin-left: 0;
+	margin-top: -345px;
+	max-width: 960px;
+	height: 100%;
+}
+
+.mob .about_fork {
+	width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 40px;
+    right: 10px;
+    z-index: 100;
+}
+.mob .txt {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    text-align: initial;
+    background-color: #000;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+	line-height: 22px;
+	font-size: 14px;
+}
+.mob .switch{
+	display: none;
+}
+
+
+/* ç¤¾ä¼šè´£ä»» */
+
+#certify {
+	position: relative;
+	width: 1200px;
+	margin: 80px auto 0;
+}
+
+#certify .swiper-container {
+	padding-bottom: 60px;
+}
+
+#certify  .swiper-slide {
+	width: 520px;
+	height: 408px;
+	background: #fff;
+	/* box-shadow: 0 8px 30px #ddd; */
+}
+#certify  .swiper-slide img{
+	width: 100%;
+	display:block;
+	box-shadow: 0 8px 30px #ddd;
+}
+#certify  .swiper-slide p {
+	line-height: 98px;
+	padding-top: 0;
+	text-align: center;
+	color: #636363;
+	font-size: 1.1em;
+	margin: 0;
+}
+
+#certify .swiper-pagination {
+	width: 100%;
+	bottom: 20px;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 5px;
+	border: 3px solid #fff;
+	background-color: #d5d5d5;
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+	border: 3px solid #00aadc;
+	background-color: #fff;
+}
+
+#certify .swiper-button-prev {
+	left: -30px;
+	width: 45px;
+	height: 45px;
+	background: url(../images/wm_button_icon.png) no-repeat;
+	background-position: 0 0;
+	background-size: 100%;
+}
+
+#certify .swiper-button-prev:hover {
+	background-position: 0 -46px;
+	background-size: 100%
+}
+
+#certify .swiper-button-next {
+	right: -30px;
+	width: 45px;
+	height: 45px;
+	background: url(../images/wm_button_icon.png) no-repeat;
+	background-position: 0 -93px;
+	background-size: 100%;
+}
+
+#certify .swiper-button-next:hover {
+	background-position: 0 -139px;
+	background-size: 100%
+}
